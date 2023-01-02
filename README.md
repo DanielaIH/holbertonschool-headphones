@@ -1,5 +1,5 @@
 # holbertonschool-headphones
-In this project, you will implement from scratch, without any library, a web page. I use all HTML/CSS/Accessibility/Responsive design knowledges that I learned previously.
+In this project, I will implement from scratch, without any library, a web page. I have to use all HTML/CSS/Accessibility/Responsive design knowledges that I learned previously.
 
 This webpage has been designed by Nicolas Philippot, UI/UX designer.
 ## Requirements
