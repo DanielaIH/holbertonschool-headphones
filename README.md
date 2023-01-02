@@ -10,7 +10,7 @@ you are not to use Javascript
 This project consists in Implementing a design from scratch, using my previously knowledges in HTML/CSS/Accessibility/Responsive design.
 
 ## How can you use this template
-You can download this repo and launch in your browser and using [link] (https://developer.chrome.com/docs/devtools/ "DevTools") you can explore the css style sheet and html details to add in your projects.
+You can download this repo and launch in your browser and using [link](https://developer.chrome.com/docs/devtools/ "DevTools") you can explore the css style sheet and html details to add in your projects.
 
 Here the designs that I have to build from zero:
 
