@@ -10,8 +10,11 @@ you are not to use Javascript
 
 Here the designs that I have to build from zero:
 
+#### This is the desktop view
 ![This is the desktop view](designs/01_headphones_desktop@2x.png)
+#### This is the view for mobile devices
 ![This is the view for mobile devices](designs/01_headphones_mobile@2x.png)
+#### This is the view for tablets
 ![This is the view for tablets](designs/01_headphones_tablet@2x.png)
 
 ### This repo contains the html and css files using Accessibility/Responsive design knowledges
