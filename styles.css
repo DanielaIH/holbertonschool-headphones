@@ -1,41 +1,114 @@
+body {
+    margin: 0 !important;
+}
+
 header {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
     box-sizing: border-box;
-    padding: var(--header-padding);
     position: relative;
     z-index: 3;
     background-image: url(images/headphones_hero_1.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-size: 100%;
     text-align: center;
+    height: 100%;
+    padding: 0;
+    padding-bottom: 90px;
 }
 
-header p {
-    font-size: 1rem;
-    -webkit-text-size-adjust: 100%;
-    color: var(--text-color);
-    font-family: var(--font-family-base);
-    font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
-    text-align: center;
-    padding: 0 32%;
+.container {
+    padding: 0 18%;
+}
+
+.header-logo>a>img {
+    height: 36px;
+}
+
+.header-logo {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.navbar-menu ul li {
+    display: inline;
+}
+
+.navbar-menu ul li a {
+    padding: 27px;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav .nav-link:hover {
+    color: #FF6565;
+    text-decoration: none;
+}
+
+.sec1 {
+    margin-top: 332px;
+}
+
+.sec1-title {
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+}
+
+.sec1-subtitle {
+    font-size: 19px;
+    margin: 0;
+    margin-bottom: 37px;
 }
 
 .button {
     background: #FF6565;
     border-radius: 22px;
-
+    text-decoration: none;
     display: inline-block;
-    padding: 1.5rem 3rem;
-    border: #FF6565 solid;
+    padding: 0.75rem 2rem;
     color: white;
     cursor: pointer;
+    margin: 12px;
+    font-size: 14px;
+    box-shadow: 3px 3px 1.4em #000000a3;
 }
 
+.sec1_description {
+    font-size: 1rem;
+    -webkit-text-size-adjust: 100%;
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    text-align: center;
+    padding: 48px 17%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+}
 
 :root {
     --button-color: var(--color-white);
@@ -59,7 +132,6 @@ header p {
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
-    --font-weight-regular: 400;
     --font-weight-bold: 700;
     --line-height-small: 1.2;
     --line-height-base: 1.5;
